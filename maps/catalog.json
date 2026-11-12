@@ -73,7 +73,24 @@
         47.45,
         36.94,
         49.2
-      ]
+      ],
+      "standard": {
+        "id": "dnipropetrovsk",
+        "name": "Дніпропетровська область",
+        "version": "2026-11-11-d069535af2b2-2",
+        "date": "2026-11-11T01:06:03Z",
+        "bounds": [
+          30.8002567,
+          46.6820971,
+          38.0855922,
+          49.4347328
+        ],
+        "schema": 1,
+        "graph": "valhalla-3.6.3-e2f017b",
+        "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/dnipropetrovsk-2026-11-11-d069535af2b2-2.zip",
+        "bytes": 71832149,
+        "sha256": "3f84d26c64abef02e2d1bd9639f3d7f7c79a443902ddeeeef3cfec5f19e38436"
+      }
     },
     {
       "id": "donetsk",
@@ -147,7 +164,24 @@
         46.14,
         37.25,
         48.15
-      ]
+      ],
+      "standard": {
+        "id": "zaporizhzhia",
+        "name": "Запорізька область",
+        "version": "2026-11-11-8d040b181b4e-2",
+        "date": "2026-11-11T01:06:03Z",
+        "bounds": [
+          33.1862369,
+          45.6418509,
+          38.0856997,
+          48.5584091
+        ],
+        "schema": 1,
+        "graph": "valhalla-3.6.3-e2f017b",
+        "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zaporizhzhia-2026-11-11-8d040b181b4e-2.zip",
+        "bytes": 35464198,
+        "sha256": "d4c07e885eb4076a4c7cade4c99c9efb346f7731f757ddffcf726d49b4af33c3"
+      }
     },
     {
       "id": "ivano-frankivsk",
