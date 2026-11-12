@@ -1,0 +1,493 @@
+{
+  "schema": 1,
+  "regions": [
+    {
+      "id": "dnipro-zaporizhzhia",
+      "name": "Дніпропетровська і Запорізька області",
+      "version": "2026-11-11-3cb0318b2868-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        30.8002567,
+        45.6418509,
+        38.0856997,
+        49.4347328
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/dnipro-zaporizhzhia-2026-11-11-3cb0318b2868-2.zip",
+      "bytes": 105394795,
+      "sha256": "372cd8e0281d6b3622e8941b6397e8077480628e4480bc7596d5addbb906c9a7"
+    },
+    {
+      "id": "vinnytsia",
+      "name": "Вінницька область",
+      "version": "2026-11-11-84b80581bc96-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        24.2545446,
+        46.6206206,
+        31.3804466,
+        50.501533
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/vinnytsia-2026-11-11-84b80581bc96-2.zip",
+      "bytes": 59896139,
+      "sha256": "6a6284610ab15bf95b039212ad504453509f7a02197dfbd9ddfea93bb1cf8d4f"
+    },
+    {
+      "id": "volyn",
+      "name": "Волинська область",
+      "version": "2026-11-11-727ab218fea3-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        23.3533863,
+        49.3892956,
+        26.2777057,
+        52.4043367
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/volyn-2026-11-11-727ab218fea3-2.zip",
+      "bytes": 37957629,
+      "sha256": "60c524efd56e66093224b1e82fad902e6b6467530f675a563016a14d22b8a3fe"
+    },
+    {
+      "id": "dnipropetrovsk",
+      "name": "Дніпропетровська область",
+      "version": "2026-11-11-d069535af2b2-2-sat-d3ac4b2349",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        30.8002567,
+        46.6820971,
+        38.0855922,
+        49.4347328
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/dnipropetrovsk-2026-11-11-d069535af2b2-2-sat-d3ac4b2349.zip",
+      "bytes": 590818341,
+      "sha256": "2cce0be5086d82a1b92e365a5c9031a47e2052a0d5af08cffd8a91fb18bbd586",
+      "satellite": [
+        32.95,
+        47.45,
+        36.94,
+        49.2
+      ]
+    },
+    {
+      "id": "donetsk",
+      "name": "Донецька область",
+      "version": "2026-11-11-9027fe6661ab-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        34.5312623,
+        45.5150181,
+        40.078114,
+        49.964453
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/donetsk-2026-11-11-9027fe6661ab-2.zip",
+      "bytes": 71927850,
+      "sha256": "9363f7c2342f4a9c0326393fa98101b6c0bf2283b06a17d784e4813ac22276da"
+    },
+    {
+      "id": "zhytomyr",
+      "name": "Житомирська область",
+      "version": "2026-11-11-358ace3ee210-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        25.1261319,
+        49.1658809,
+        30.3905698,
+        52.0130151
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/zhytomyr-2026-11-11-358ace3ee210-2.zip",
+      "bytes": 45421253,
+      "sha256": "b34d977fd5de239b12e0d61f506674343799f8a4fa2856f70eb0a71c1651022a"
+    },
+    {
+      "id": "zakarpattia",
+      "name": "Закарпатська область",
+      "version": "2026-11-11-49844f32e02f-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        19.6899006,
+        47.6598398,
+        24.9497711,
+        49.5428121
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/zakarpattia-2026-11-11-49844f32e02f-2.zip",
+      "bytes": 51190904,
+      "sha256": "470cadacd7775137d3ab92e81770966f93baed0e24bc7e1244c1914a3551e666"
+    },
+    {
+      "id": "zaporizhzhia",
+      "name": "Запорізька область",
+      "version": "2026-11-11-8d040b181b4e-2-sat-7d3b24b4e9",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        33.1862369,
+        45.6418509,
+        38.0856997,
+        48.5584091
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/zaporizhzhia-2026-11-11-8d040b181b4e-2-sat-7d3b24b4e9.zip",
+      "bytes": 420382024,
+      "sha256": "0f788176f504f87a1d17c77cb7773ed7fd1aa365f9d9fb85e153e52e71d5bfe5",
+      "satellite": [
+        34.13,
+        46.14,
+        37.25,
+        48.15
+      ]
+    },
+    {
+      "id": "ivano-frankivsk",
+      "name": "Івано-Франківська область",
+      "version": "2026-11-11-1d19cd4a8a46-2",
+      "date": "2026-11-11T01:07:05Z",
+      "bounds": [
+        22.3844003,
+        47.595797,
+        28.7233732,
+        51.3202304
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/ivano-frankivsk-2026-11-11-1d19cd4a8a46-2.zip",
+      "bytes": 55852603,
+      "sha256": "81bb33dd9cf9756a438d78f7096ff067a15103eeb536a2cc8462057201df0550"
+    },
+    {
+      "id": "kyiv-oblast",
+      "name": "Київська область",
+      "version": "2026-11-11-e7f4e4ceb0b9-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        25.9212344,
+        48.9689583,
+        32.4327626,
+        52.0029085
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/kyiv-oblast-2026-11-11-e7f4e4ceb0b9-2.zip",
+      "bytes": 100973872,
+      "sha256": "38b45775be9061a4a9cc91518896ef0fdb1c44e149f55aafd9d1b5bdebf965f4"
+    },
+    {
+      "id": "kirovohrad",
+      "name": "Кіровоградська область",
+      "version": "2026-11-11-5b1a09533a57-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        28.727954,
+        47.5720746,
+        34.0426975,
+        49.4718622
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/kirovohrad-2026-11-11-5b1a09533a57-2.zip",
+      "bytes": 43030150,
+      "sha256": "896a23d5a6d522de59dad3a2230af3f7581c47165043843e8bbda8ae4742cd5b"
+    },
+    {
+      "id": "luhansk",
+      "name": "Луганська область",
+      "version": "2026-11-11-5b4c740c8567-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        33.9291286,
+        47.4214941,
+        44.6484589,
+        50.6370721
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/luhansk-2026-11-11-5b4c740c8567-2.zip",
+      "bytes": 55842293,
+      "sha256": "9c102996d2e8c265bb936c598c24dec5078e207cecd0a6346aed7dcb144dea4a"
+    },
+    {
+      "id": "lviv",
+      "name": "Львівська область",
+      "version": "2026-11-11-b5f3da5081bb-2",
+      "date": "2026-11-11T01:04:58Z",
+      "bounds": [
+        22.2671642,
+        46.6206206,
+        31.0526204,
+        51.9216357
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/lviv-2026-11-11-b5f3da5081bb-2.zip",
+      "bytes": 86392495,
+      "sha256": "d718c032b60279ccf41ced3bf648ff88ecd0d90d9c0b1c2a63f61659cbd73474"
+    },
+    {
+      "id": "mykolaiv",
+      "name": "Миколаївська область",
+      "version": "2026-11-11-a8912d11365a-2",
+      "date": "2026-11-11T01:04:58Z",
+      "bounds": [
+        28.727954,
+        45.8899915,
+        33.6751373,
+        49.1670299
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/mykolaiv-2026-11-11-a8912d11365a-2.zip",
+      "bytes": 44743512,
+      "sha256": "8df3abc8922d053ea615503c35d97bc552b1a25a4bc355d030b303282c62acfc"
+    },
+    {
+      "id": "odesa",
+      "name": "Одеська область",
+      "version": "2026-11-11-126e26c020d4-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        25.1259219,
+        41.023197,
+        33.6273236,
+        50.0659096
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/odesa-2026-11-11-126e26c020d4-2.zip",
+      "bytes": 57195862,
+      "sha256": "6fef4df049d9bb77b42ff73aa6f9855bb339a3b611c94c580b1a526a6bbd0c33"
+    },
+    {
+      "id": "poltava",
+      "name": "Полтавська область",
+      "version": "2026-11-11-2d9451cad830-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        31.9247889,
+        47.9326263,
+        39.0413048,
+        51.1015208
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/poltava-2026-11-11-2d9451cad830-2.zip",
+      "bytes": 50432695,
+      "sha256": "a996e39ec1fe8d5cd5561342fc81a6e976a7b00539a6179416ba5efbd7bfb61b"
+    },
+    {
+      "id": "rivne",
+      "name": "Рівненська область",
+      "version": "2026-11-11-d4040ba252b6-2",
+      "date": "2026-11-11T01:04:58Z",
+      "bounds": [
+        23.2973456,
+        49.305624,
+        29.7000117,
+        51.9987321
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/rivne-2026-11-11-d4040ba252b6-2.zip",
+      "bytes": 34083032,
+      "sha256": "2d781cc13668f1285234586f0d8920adcac5e646262e3ceec32a8fdc4f5d2d40"
+    },
+    {
+      "id": "sumy",
+      "name": "Сумська область",
+      "version": "2026-11-11-465b49f93c82-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        31.079607,
+        49.1663687,
+        40.3669776,
+        54.9761417
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/sumy-2026-11-11-465b49f93c82-2.zip",
+      "bytes": 40102404,
+      "sha256": "797f43bdd583fafa8098019b39e60403985d8e212845697a18fd02bf7b6f6720"
+    },
+    {
+      "id": "ternopil",
+      "name": "Тернопільська область",
+      "version": "2026-11-11-2ec6e22b0681-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        23.2973456,
+        46.6206206,
+        31.0526204,
+        51.9216357
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/ternopil-2026-11-11-2ec6e22b0681-2.zip",
+      "bytes": 38330098,
+      "sha256": "952338996e870516513a43a5c0c47add715a1392928d9ee7f50b08bf2d4aab98"
+    },
+    {
+      "id": "kharkiv",
+      "name": "Харківська область",
+      "version": "2026-11-11-d31b88b939e6-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        33.8630477,
+        48.3636381,
+        39.7324325,
+        54.9761417
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/kharkiv-2026-11-11-d31b88b939e6-2.zip",
+      "bytes": 74518435,
+      "sha256": "15f080e8321a8a5f742bfc8e142523f438d2094eba2470de613ef621238bf16b"
+    },
+    {
+      "id": "kherson",
+      "name": "Херсонська область",
+      "version": "2026-11-11-3d7de5dec3f1-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        30.8002567,
+        45.1119236,
+        36.6684499,
+        48.3222813
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/kherson-2026-11-11-3d7de5dec3f1-2.zip",
+      "bytes": 24388394,
+      "sha256": "0826ec0dfc5d8642a43e9591269be45f73c622a14cd5fe452e7151a1a67eeb03"
+    },
+    {
+      "id": "khmelnytskyi",
+      "name": "Хмельницька область",
+      "version": "2026-11-11-14f2478943b4-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        23.2973456,
+        46.6206206,
+        31.0526204,
+        51.9216357
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/khmelnytskyi-2026-11-11-14f2478943b4-2.zip",
+      "bytes": 43666242,
+      "sha256": "4f97f7e64ff2f482892a98c19f89ce45872958512d5f5569c2fd80323446a999"
+    },
+    {
+      "id": "cherkasy",
+      "name": "Черкаська область",
+      "version": "2026-11-11-d88f57a00a3f-2",
+      "date": "2026-11-11T01:04:58Z",
+      "bounds": [
+        28.727954,
+        47.8209732,
+        33.3950094,
+        50.4502921
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/cherkasy-2026-11-11-d88f57a00a3f-2.zip",
+      "bytes": 49698920,
+      "sha256": "9d1d9ac72802afcd30a218a02587eb92704d5821700cbffc3c1b52e462634fc1"
+    },
+    {
+      "id": "chernivtsi",
+      "name": "Чернівецька область",
+      "version": "2026-11-11-6392aa515c92-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        22.6860666,
+        44.9447126,
+        29.2128644,
+        49.5730765
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/chernivtsi-2026-11-11-6392aa515c92-2.zip",
+      "bytes": 35423741,
+      "sha256": "05c7dd108ab1c20a4ff38c376aa320d177ee82db22e116f6e9676b3e4881e4af"
+    },
+    {
+      "id": "chernihiv",
+      "name": "Чернігівська область",
+      "version": "2026-11-11-8abc94a4f26e-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        29.9908791,
+        50.2351236,
+        34.0942267,
+        53.2926063
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/chernihiv-2026-11-11-8abc94a4f26e-2.zip",
+      "bytes": 43844713,
+      "sha256": "df772c172880aa929b1917928e3c21ffed87641993a20795a37ac291c0212021"
+    },
+    {
+      "id": "crimea",
+      "name": "Автономна Республіка Крим",
+      "version": "2026-11-11-b777935de6da-2",
+      "date": "2026-11-11T01:07:05Z",
+      "bounds": [
+        29.6907939,
+        41.1223389,
+        37.8832657,
+        46.8114792
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/crimea-2026-11-11-b777935de6da-2.zip",
+      "bytes": 47754626,
+      "sha256": "56c2d3f054a81b466acfd2ea1c3a6fe10323b50013c20e6b09057e7f19a86582"
+    },
+    {
+      "id": "kyiv",
+      "name": "Київ",
+      "version": "2026-11-11-682ac4ab33fc-2",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        29.6895116,
+        50.1744933,
+        31.3120814,
+        51.1695908
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/kyiv-2026-11-11-682ac4ab33fc-2.zip",
+      "bytes": 30493489,
+      "sha256": "8775fef1bd2727f9dccab9b6d0e9c58289322128c190f38cc2648c1bd41d6fb9"
+    },
+    {
+      "id": "sevastopol",
+      "name": "Севастополь",
+      "version": "2026-11-11-250d83c76fd1-2",
+      "date": "2026-11-11T01:04:58Z",
+      "bounds": [
+        28.9793176,
+        41.023197,
+        35.4041228,
+        45.2926751
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://surround-dirt-cups-planes.trycloudflare.com/sevastopol-2026-11-11-250d83c76fd1-2.zip",
+      "bytes": 8589734,
+      "sha256": "0a3938c7ee24eaeb2424173cbbc0ab4f40ff6903a8ca94fad50c8962a2f93e19"
+    }
+  ]
+}
