@@ -14,7 +14,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/dnipro-zaporizhzhia-2026-11-11-3cb0318b2868-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/dnipro-zaporizhzhia-2026-11-11-3cb0318b2868-2.zip",
       "bytes": 105394795,
       "sha256": "372cd8e0281d6b3622e8941b6397e8077480628e4480bc7596d5addbb906c9a7"
     },
@@ -31,7 +31,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/vinnytsia-2026-11-11-84b80581bc96-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/vinnytsia-2026-11-11-84b80581bc96-2.zip",
       "bytes": 59896139,
       "sha256": "6a6284610ab15bf95b039212ad504453509f7a02197dfbd9ddfea93bb1cf8d4f"
     },
@@ -48,7 +48,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/volyn-2026-11-11-727ab218fea3-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/volyn-2026-11-11-727ab218fea3-2.zip",
       "bytes": 37957629,
       "sha256": "60c524efd56e66093224b1e82fad902e6b6467530f675a563016a14d22b8a3fe"
     },
@@ -65,7 +65,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/dnipropetrovsk-2026-11-11-d069535af2b2-2-sat-d3ac4b2349.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/dnipropetrovsk-2026-11-11-d069535af2b2-2-sat-d3ac4b2349.zip",
       "bytes": 590818341,
       "sha256": "2cce0be5086d82a1b92e365a5c9031a47e2052a0d5af08cffd8a91fb18bbd586",
       "satellite": [
@@ -88,7 +88,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/donetsk-2026-11-11-9027fe6661ab-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/donetsk-2026-11-11-9027fe6661ab-2.zip",
       "bytes": 71927850,
       "sha256": "9363f7c2342f4a9c0326393fa98101b6c0bf2283b06a17d784e4813ac22276da"
     },
@@ -105,7 +105,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/zhytomyr-2026-11-11-358ace3ee210-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zhytomyr-2026-11-11-358ace3ee210-2.zip",
       "bytes": 45421253,
       "sha256": "b34d977fd5de239b12e0d61f506674343799f8a4fa2856f70eb0a71c1651022a"
     },
@@ -122,7 +122,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/zakarpattia-2026-11-11-49844f32e02f-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zakarpattia-2026-11-11-49844f32e02f-2.zip",
       "bytes": 51190904,
       "sha256": "470cadacd7775137d3ab92e81770966f93baed0e24bc7e1244c1914a3551e666"
     },
@@ -139,7 +139,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/zaporizhzhia-2026-11-11-8d040b181b4e-2-sat-7d3b24b4e9.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zaporizhzhia-2026-11-11-8d040b181b4e-2-sat-7d3b24b4e9.zip",
       "bytes": 420382024,
       "sha256": "0f788176f504f87a1d17c77cb7773ed7fd1aa365f9d9fb85e153e52e71d5bfe5",
       "satellite": [
@@ -162,7 +162,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/ivano-frankivsk-2026-11-11-1d19cd4a8a46-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/ivano-frankivsk-2026-11-11-1d19cd4a8a46-2.zip",
       "bytes": 55852603,
       "sha256": "81bb33dd9cf9756a438d78f7096ff067a15103eeb536a2cc8462057201df0550"
     },
@@ -179,7 +179,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/kyiv-oblast-2026-11-11-e7f4e4ceb0b9-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/kyiv-oblast-2026-11-11-e7f4e4ceb0b9-2.zip",
       "bytes": 100973872,
       "sha256": "38b45775be9061a4a9cc91518896ef0fdb1c44e149f55aafd9d1b5bdebf965f4"
     },
@@ -196,7 +196,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/kirovohrad-2026-11-11-5b1a09533a57-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/kirovohrad-2026-11-11-5b1a09533a57-2.zip",
       "bytes": 43030150,
       "sha256": "896a23d5a6d522de59dad3a2230af3f7581c47165043843e8bbda8ae4742cd5b"
     },
@@ -213,7 +213,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/luhansk-2026-11-11-5b4c740c8567-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/luhansk-2026-11-11-5b4c740c8567-2.zip",
       "bytes": 55842293,
       "sha256": "9c102996d2e8c265bb936c598c24dec5078e207cecd0a6346aed7dcb144dea4a"
     },
@@ -230,7 +230,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/lviv-2026-11-11-b5f3da5081bb-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/lviv-2026-11-11-b5f3da5081bb-2.zip",
       "bytes": 86392495,
       "sha256": "d718c032b60279ccf41ced3bf648ff88ecd0d90d9c0b1c2a63f61659cbd73474"
     },
@@ -247,7 +247,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/mykolaiv-2026-11-11-a8912d11365a-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/mykolaiv-2026-11-11-a8912d11365a-2.zip",
       "bytes": 44743512,
       "sha256": "8df3abc8922d053ea615503c35d97bc552b1a25a4bc355d030b303282c62acfc"
     },
@@ -264,7 +264,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/odesa-2026-11-11-126e26c020d4-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/odesa-2026-11-11-126e26c020d4-2.zip",
       "bytes": 57195862,
       "sha256": "6fef4df049d9bb77b42ff73aa6f9855bb339a3b611c94c580b1a526a6bbd0c33"
     },
@@ -281,7 +281,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/poltava-2026-11-11-2d9451cad830-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/poltava-2026-11-11-2d9451cad830-2.zip",
       "bytes": 50432695,
       "sha256": "a996e39ec1fe8d5cd5561342fc81a6e976a7b00539a6179416ba5efbd7bfb61b"
     },
@@ -298,7 +298,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/rivne-2026-11-11-d4040ba252b6-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/rivne-2026-11-11-d4040ba252b6-2.zip",
       "bytes": 34083032,
       "sha256": "2d781cc13668f1285234586f0d8920adcac5e646262e3ceec32a8fdc4f5d2d40"
     },
@@ -315,7 +315,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/sumy-2026-11-11-465b49f93c82-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/sumy-2026-11-11-465b49f93c82-2.zip",
       "bytes": 40102404,
       "sha256": "797f43bdd583fafa8098019b39e60403985d8e212845697a18fd02bf7b6f6720"
     },
@@ -332,7 +332,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/ternopil-2026-11-11-2ec6e22b0681-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/ternopil-2026-11-11-2ec6e22b0681-2.zip",
       "bytes": 38330098,
       "sha256": "952338996e870516513a43a5c0c47add715a1392928d9ee7f50b08bf2d4aab98"
     },
@@ -349,7 +349,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/kharkiv-2026-11-11-d31b88b939e6-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/kharkiv-2026-11-11-d31b88b939e6-2.zip",
       "bytes": 74518435,
       "sha256": "15f080e8321a8a5f742bfc8e142523f438d2094eba2470de613ef621238bf16b"
     },
@@ -366,7 +366,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/kherson-2026-11-11-3d7de5dec3f1-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/kherson-2026-11-11-3d7de5dec3f1-2.zip",
       "bytes": 24388394,
       "sha256": "0826ec0dfc5d8642a43e9591269be45f73c622a14cd5fe452e7151a1a67eeb03"
     },
@@ -383,7 +383,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/khmelnytskyi-2026-11-11-14f2478943b4-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/khmelnytskyi-2026-11-11-14f2478943b4-2.zip",
       "bytes": 43666242,
       "sha256": "4f97f7e64ff2f482892a98c19f89ce45872958512d5f5569c2fd80323446a999"
     },
@@ -400,7 +400,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/cherkasy-2026-11-11-d88f57a00a3f-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/cherkasy-2026-11-11-d88f57a00a3f-2.zip",
       "bytes": 49698920,
       "sha256": "9d1d9ac72802afcd30a218a02587eb92704d5821700cbffc3c1b52e462634fc1"
     },
@@ -417,7 +417,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/chernivtsi-2026-11-11-6392aa515c92-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/chernivtsi-2026-11-11-6392aa515c92-2.zip",
       "bytes": 35423741,
       "sha256": "05c7dd108ab1c20a4ff38c376aa320d177ee82db22e116f6e9676b3e4881e4af"
     },
@@ -434,7 +434,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/chernihiv-2026-11-11-8abc94a4f26e-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/chernihiv-2026-11-11-8abc94a4f26e-2.zip",
       "bytes": 43844713,
       "sha256": "df772c172880aa929b1917928e3c21ffed87641993a20795a37ac291c0212021"
     },
@@ -451,7 +451,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/crimea-2026-11-11-b777935de6da-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/crimea-2026-11-11-b777935de6da-2.zip",
       "bytes": 47754626,
       "sha256": "56c2d3f054a81b466acfd2ea1c3a6fe10323b50013c20e6b09057e7f19a86582"
     },
@@ -468,7 +468,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/kyiv-2026-11-11-682ac4ab33fc-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/kyiv-2026-11-11-682ac4ab33fc-2.zip",
       "bytes": 30493489,
       "sha256": "8775fef1bd2727f9dccab9b6d0e9c58289322128c190f38cc2648c1bd41d6fb9"
     },
@@ -485,7 +485,7 @@
       ],
       "schema": 1,
       "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/untagged-cc887dc8c3d2a12abf30/sevastopol-2026-11-11-250d83c76fd1-2.zip",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/sevastopol-2026-11-11-250d83c76fd1-2.zip",
       "bytes": 8589734,
       "sha256": "0a3938c7ee24eaeb2424173cbbc0ab4f40ff6903a8ca94fad50c8962a2f93e19"
     }
