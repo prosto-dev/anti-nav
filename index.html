@@ -6,8 +6,8 @@
   <meta name="description" content="AntiNav — український офлайн-навігатор для Android та iPhone. Завантажте тестову версію або долучіться до TestFlight.">
   <meta name="theme-color" content="#171b18">
   <title>AntiNav — офлайн-навігація</title>
-  <link rel="stylesheet" href="site.css">
-  <script src="site.js" defer></script>
+  <link rel="stylesheet" href="site.css?v=viewer">
+  <script src="site.js?v=viewer" defer></script>
   <script src="guide.js" defer></script>
 </head>
 <body>
@@ -24,13 +24,16 @@
       <div class="intro">
         <p class="eyebrow"><span></span> Android та iPhone</p>
         <h1 id="title">Навігація<br>без мережі<span>.</span></h1>
-        <p class="lead">Завантажте карту області заздалегідь. AntiNav побудує автомобільний або пішохідний маршрут на телефоні, навіть коли інтернет зникне.</p>
-        <a class="button primary" href="#download">Отримати AntiNav <span aria-hidden="true">↓</span></a>
+        <p class="lead">Завантажте карту області через інтернет. Далі AntiNav показує карту й будує автомобільні та пішохідні маршрути без мережі.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#android">Версія для Android <span aria-hidden="true">↓</span></a>
+          <a class="button outline" href="#iphone">Заявка на iPhone <span aria-hidden="true">↓</span></a>
+        </div>
       </div>
       <figure class="preview">
-        <div class="phone">
+        <a class="phone screenshot-link" href="map-preview.png" data-screenshot>
           <img src="map-preview.png" width="1080" height="2400" alt="Екран AntiNav з офлайн-картою, лінією маршруту та кнопкою «Я тут»">
-        </div>
+        </a>
         <figcaption>Екран навігації AntiNav</figcaption>
       </figure>
     </section>
@@ -38,29 +41,30 @@
     <section class="section" id="about" aria-labelledby="features-title">
       <h2 id="features-title">Можливості</h2>
       <div class="features">
-        <article><h3>Карти областей</h3><p>Завантажуйте потрібні регіони. Для Дніпропетровської та Запорізької областей доступний також супутниковий шар.</p></article>
-        <article><h3>Три режими ведення</h3><p>Обирайте геолокацію, швидкість авто з OBDLink CX або задану швидкість. Кнопка «Я тут» допомагає уточнити позицію.</p></article>
+        <article><h3>Карти областей</h3><p>Завантажуйте потрібні регіони України. Для Дніпропетровської та Запорізької областей доступні оглядові супутникові знімки.</p></article>
+        <article><h3>Ведення маршрутом</h3><p>Використовуйте GPS телефона. Якщо сигнал зникне, AntiNav може оцінювати рух за швидкістю з OBDLink CX або заданою швидкістю. Позицію можна уточнити кнопкою «Я тут».</p></article>
         <article><h3>Мої маршрути</h3><p>Додавайте проміжні зупинки, записуйте поїздки й відкривайте збережені маршрути.</p></article>
       </div>
     </section>
 
     <section class="section" id="screenshots" aria-labelledby="screenshots-title">
       <h2 id="screenshots-title">AntiNav на екрані</h2>
+      <p class="gallery-hint">Натисніть на скріншот, щоб збільшити.</p>
       <div class="screenshots">
         <figure>
-          <a href="screens/maps.png" target="_blank" rel="noopener"><img src="screens/maps.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот каталогу офлайн-карт"></a>
+          <a class="screenshot-link" href="screens/maps.png" data-screenshot><img src="screens/maps.png" width="1080" height="2400" loading="lazy" alt="Каталог офлайн-карт із розмірами пакетів та кнопками завантаження"></a>
           <figcaption>Офлайн-карти</figcaption>
         </figure>
         <figure>
-          <a href="screens/route.png" target="_blank" rel="noopener"><img src="screens/route.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот прокладання маршруту"></a>
+          <a class="screenshot-link" href="screens/route.png" data-screenshot><img src="screens/route.png" width="1080" height="2400" loading="lazy" alt="Три пронумеровані точки на карті й кнопка «Побудувати маршрут»"></a>
           <figcaption>Планування маршруту</figcaption>
         </figure>
         <figure>
-          <a href="screens/guidance.png" target="_blank" rel="noopener"><img src="screens/guidance.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот ведення маршрутом"></a>
+          <a class="screenshot-link" href="screens/guidance.png" data-screenshot><img src="screens/guidance.png" width="1080" height="2400" loading="lazy" alt="Карта з поточною позицією, відстанню до фінішу та підказкою про поворот"></a>
           <figcaption>Ведення маршрутом</figcaption>
         </figure>
         <figure>
-          <a href="screens/trips.png" target="_blank" rel="noopener"><img src="screens/trips.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот збережених маршрутів"></a>
+          <a class="screenshot-link" href="screens/trips.png" data-screenshot><img src="screens/trips.png" width="1080" height="2400" loading="lazy" alt="Список записаних поїздок і побудованих маршрутів"></a>
           <figcaption>Мої маршрути</figcaption>
         </figure>
       </div>
@@ -88,22 +92,39 @@
     <section class="section download" id="download" aria-labelledby="download-title">
       <h2 id="download-title">Спробуйте AntiNav</h2>
       <div class="cards">
-        <article class="card">
+        <article class="card" id="android">
           <h3>Android</h3>
           <p class="version" id="android-version" aria-live="polite">Перевіряємо номер версії…</p>
-          <p>Завантажте тестову збірку у форматі APK. Для першого завантаження карт потрібен інтернет і доступний каталог.</p>
+          <p>Встановіть тестову збірку APK, відкрийте «Офлайн-карти» в застосунку й завантажте потрібну область.</p>
           <a class="button primary" href="https://github.com/prosto-dev/anti-nav/releases/latest/download/AntiNav.apk">Завантажити APK <span aria-hidden="true">↓</span></a>
           <a class="small-link" href="https://github.com/prosto-dev/anti-nav/releases/latest">Деталі випуску</a>
         </article>
-        <article class="card">
+        <article class="card" id="iphone">
           <h3>iPhone</h3>
           <p class="version">Тестування через TestFlight</p>
-          <p>Надішліть у WhatsApp адресу iCloud, яку використовуєте на iPhone. Якщо для вас буде доступне місце, отримаєте запрошення до TestFlight.</p>
+          <p>Надішліть свою адресу iCloud у WhatsApp. Після отримання запрошення встановіть AntiNav через TestFlight.</p>
           <a class="button outline" href="https://wa.me/380972323660?text=%D0%92%D1%96%D1%82%D0%B0%D1%8E%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%82%D0%B5%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8%20AntiNav%20%D0%BD%D0%B0%20iPhone.%20%D0%9C%D0%BE%D1%8F%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%20iCloud%3A%20">Написати в WhatsApp <span aria-hidden="true">↗</span></a>
         </article>
       </div>
     </section>
   </main>
+
+  <dialog class="screenshot-viewer" aria-labelledby="screenshot-title">
+    <div class="viewer-content">
+      <header class="viewer-header">
+        <h2 id="screenshot-title">Скріншоти AntiNav</h2>
+        <form method="dialog">
+          <button type="submit" aria-label="Закрити скріншот" autofocus>×</button>
+        </form>
+      </header>
+      <div class="viewer-image"><img src="map-preview.png" alt=""></div>
+      <div class="viewer-controls">
+        <button type="button" data-direction="-1" aria-label="Попередній скріншот">←</button>
+        <span class="viewer-count" aria-live="polite"></span>
+        <button type="button" data-direction="1" aria-label="Наступний скріншот">→</button>
+      </div>
+    </div>
+  </dialog>
 
   <footer class="shell foot">
     <span class="brand"><span class="marker" aria-hidden="true"></span> AntiNav</span>
