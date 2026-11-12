@@ -51,6 +51,24 @@ h3 { margin: 0 0 10px; font-size: 1.15rem; }
 .card .button { margin-top: 7px; }
 .small-link { font-size: .82rem; color: var(--muted); }
 .foot { border-top: 1px solid var(--line); padding: 26px 0 38px; flex-wrap: wrap; }
+.screenshots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.screenshots figure { margin: 0; min-width: 0; }
+.screenshots a { display: block; overflow: hidden; border-radius: 13px; border: 1px solid var(--line); }
+.screenshots a:hover { border-color: var(--accent); }
+.screenshots img { display: block; width: 100%; height: auto; }
+.screenshots figcaption { margin-top: 10px; font-size: .9rem; }
+.guide { display: grid; grid-template-columns: minmax(200px, 1fr) minmax(0, 2fr); gap: 16px; }
+.guide-steps { display: grid; align-content: start; gap: 8px; }
+.guide button { cursor: pointer; font: inherit; }
+.guide-steps button { min-height: 50px; padding: 12px 15px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); text-align: left; }
+.guide-steps button[aria-pressed="true"] { color: var(--text); background: #332a20; border-color: var(--accent); }
+.guide button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.guide-scene { overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.guide-scene canvas { display: block; width: 100%; height: auto; background: #252e26; }
+.guide-caption { padding: 15px 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.guide-caption p { flex: 1 1 15rem; margin: 0; color: var(--muted); line-height: 1.5; }
+.replay { min-height: 44px; padding: 7px 0; border: 0; background: none; color: var(--accent); }
+.replay[hidden] { display: none; }
 @media (max-width: 760px) {
   .shell { width: calc(100% - 36px); }
   .hero { grid-template-columns: 1fr; gap: 28px; padding: 32px 0 40px; }
@@ -58,6 +76,9 @@ h3 { margin: 0 0 10px; font-size: 1.15rem; }
   .phone { width: min(100%, 182px); }
   .features, .cards { grid-template-columns: 1fr; }
   .section { padding: 32px 0; }
+  .screenshots { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 10px; }
+  .guide { grid-template-columns: 1fr; }
+  .guide-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (prefers-reduced-motion: reduce) {
   .button { transition: none; }

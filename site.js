@@ -2,7 +2,7 @@ const versionLabel = document.querySelector('#android-version');
 
 async function showCurrentVersion() {
   try {
-    const url = 'https://api.github.com/repos/prosto-dev/antinav-site/releases/latest';
+    const url = 'https://api.github.com/repos/prosto-dev/anti-nav/releases/latest';
     const response = await fetch(url, { cache: 'no-cache', signal: AbortSignal.timeout(6500) });
     if (!response.ok) throw new Error('GitHub Releases unavailable');
 

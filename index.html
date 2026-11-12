@@ -8,6 +8,7 @@
   <title>AntiNav — офлайн-навігація</title>
   <link rel="stylesheet" href="site.css">
   <script src="site.js" defer></script>
+  <script src="guide.js" defer></script>
 </head>
 <body>
   <header class="shell top">
@@ -43,6 +44,47 @@
       </div>
     </section>
 
+    <section class="section" id="screenshots" aria-labelledby="screenshots-title">
+      <h2 id="screenshots-title">AntiNav на екрані</h2>
+      <div class="screenshots">
+        <figure>
+          <a href="screens/maps.png" target="_blank" rel="noopener"><img src="screens/maps.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот каталогу офлайн-карт"></a>
+          <figcaption>Офлайн-карти</figcaption>
+        </figure>
+        <figure>
+          <a href="screens/route.png" target="_blank" rel="noopener"><img src="screens/route.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот прокладання маршруту"></a>
+          <figcaption>Планування маршруту</figcaption>
+        </figure>
+        <figure>
+          <a href="screens/guidance.png" target="_blank" rel="noopener"><img src="screens/guidance.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот ведення маршрутом"></a>
+          <figcaption>Ведення маршрутом</figcaption>
+        </figure>
+        <figure>
+          <a href="screens/trips.png" target="_blank" rel="noopener"><img src="screens/trips.png" width="1080" height="2400" loading="lazy" alt="Відкрити скріншот збережених маршрутів"></a>
+          <figcaption>Мої маршрути</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="guide" aria-labelledby="guide-title">
+      <h2 id="guide-title">Перші кроки</h2>
+      <div class="guide">
+        <div class="guide-steps" aria-label="Кроки інструкції">
+          <button type="button" aria-pressed="true" data-step="0">Завантажте карту</button>
+          <button type="button" aria-pressed="false" data-step="1">Побудуйте маршрут</button>
+          <button type="button" aria-pressed="false" data-step="2">Почніть рух</button>
+          <button type="button" aria-pressed="false" data-step="3">Збережіть поїздку</button>
+        </div>
+        <div class="guide-scene">
+          <canvas width="680" height="470" aria-hidden="true"></canvas>
+          <div class="guide-caption">
+            <p id="guide-description" aria-live="polite">Відкрийте «Офлайн-карти», виберіть область і дочекайтеся статусу «Завантажено».</p>
+            <button class="replay" type="button">Повторити анімацію <span aria-hidden="true">↻</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section download" id="download" aria-labelledby="download-title">
       <h2 id="download-title">Спробуйте AntiNav</h2>
       <div class="cards">
@@ -50,8 +92,8 @@
           <h3>Android</h3>
           <p class="version" id="android-version" aria-live="polite">Перевіряємо номер версії…</p>
           <p>Завантажте тестову збірку у форматі APK. Для першого завантаження карт потрібен інтернет і доступний каталог.</p>
-          <a class="button primary" href="https://github.com/prosto-dev/antinav-site/releases/latest/download/AntiNav.apk">Завантажити APK <span aria-hidden="true">↓</span></a>
-          <a class="small-link" href="https://github.com/prosto-dev/antinav-site/releases/latest">Деталі випуску</a>
+          <a class="button primary" href="https://github.com/prosto-dev/anti-nav/releases/latest/download/AntiNav.apk">Завантажити APK <span aria-hidden="true">↓</span></a>
+          <a class="small-link" href="https://github.com/prosto-dev/anti-nav/releases/latest">Деталі випуску</a>
         </article>
         <article class="card">
           <h3>iPhone</h3>
