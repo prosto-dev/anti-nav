@@ -1,0 +1,64 @@
+:root {
+  color-scheme: dark;
+  --ink: #171b18;
+  --panel: #232923;
+  --line: #3c473c;
+  --text: #f4f1e8;
+  --muted: #c0c7bc;
+  --accent: #ffae58;
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--ink);
+  color: var(--text);
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.shell { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
+.top, .foot { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.top { min-height: 80px; border-bottom: 1px solid var(--line); }
+.brand { display: inline-flex; align-items: center; gap: .5rem; font-size: 1.2rem; font-weight: 800; text-decoration: none; }
+.marker { width: .9rem; height: 1rem; background: var(--accent); clip-path: polygon(50% 0, 100% 100%, 50% 73%, 0 100%); }
+nav { display: flex; gap: clamp(16px, 4vw, 36px); }
+nav a, .foot a { color: var(--muted); text-decoration: none; font-size: .9rem; }
+nav a:hover, .foot a:hover, .small-link:hover { color: var(--accent); }
+.hero { display: grid; grid-template-columns: 1fr .82fr; align-items: center; gap: 38px; padding: 54px 0 58px; }
+.eyebrow { display: flex; align-items: center; gap: 9px; color: var(--muted); font-size: .8rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; }
+.eyebrow span { width: 7px; height: 7px; background: var(--accent); border-radius: 50%; }
+h1 { margin: 18px 0; font-size: clamp(3rem, 6.8vw, 6.5rem); font-weight: 820; line-height: .96; letter-spacing: -.075em; }
+h1 span { color: var(--accent); }
+.lead { max-width: 470px; color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.17rem); line-height: 1.68; margin: 22px 0 28px; }
+.button { display: inline-flex; align-items: center; justify-content: space-between; gap: 22px; padding: .85rem 1.15rem; min-height: 48px; border-radius: 8px; text-decoration: none; font-weight: 750; transition: background-color .18s; }
+.primary { background: var(--accent); color: #271707; }
+.primary:hover { background: #ffc17f; }
+.outline { border: 1px solid #657368; }
+.outline:hover { background: #334035; }
+.preview { margin: 0; min-height: 520px; padding: 27px; display: grid; place-items: center; align-content: center; border: 1px solid var(--line); border-radius: 18px; background: radial-gradient(ellipse at 50% 27%, #3c4b3d, transparent 75%), repeating-linear-gradient(135deg, transparent 0 22px, #a3b49c0c 22px 23px), #202720; }
+.phone { width: min(100%, 220px); overflow: hidden; border-radius: 22px; border: 5px solid #111611; box-shadow: 0 20px 44px #0008, 0 0 0 1px #6c7865; }
+.phone img { width: 100%; height: auto; display: block; }
+figcaption { color: var(--muted); margin-top: 16px; font-size: .78rem; }
+.section { padding: 42px 0; border-top: 1px solid var(--line); }
+h2 { margin: 0 0 24px; font-size: clamp(1.85rem, 4vw, 3rem); letter-spacing: -.05em; }
+h3 { margin: 0 0 10px; font-size: 1.15rem; }
+.features, .cards { display: grid; gap: 16px; }
+.features { grid-template-columns: repeat(3, 1fr); }
+.features article, .card { padding: 23px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+.features p, .card p { color: var(--muted); line-height: 1.55; margin: 0; }
+.cards { grid-template-columns: 1fr 1fr; }
+.card { display: flex; flex-direction: column; align-items: flex-start; gap: 11px; }
+.card h3 { margin: 0; font-size: 1.55rem; }
+.card .version { font-size: .85rem; color: var(--accent); font-weight: 700; }
+.card .button { margin-top: 7px; }
+.small-link { font-size: .82rem; color: var(--muted); }
+.foot { border-top: 1px solid var(--line); padding: 26px 0 38px; flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .shell { width: calc(100% - 36px); }
+  .hero { grid-template-columns: 1fr; gap: 28px; padding: 32px 0 40px; }
+  .preview { min-height: auto; padding: 24px; }
+  .phone { width: min(100%, 182px); }
+  .features, .cards { grid-template-columns: 1fr; }
+  .section { padding: 32px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .button { transition: none; }
+}
