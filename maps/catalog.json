@@ -53,46 +53,6 @@
       "sha256": "60c524efd56e66093224b1e82fad902e6b6467530f675a563016a14d22b8a3fe"
     },
     {
-      "id": "dnipropetrovsk",
-      "name": "Дніпропетровська область",
-      "version": "2026-11-11-d069535af2b2-2-sat-d3ac4b2349",
-      "date": "2026-11-11T01:06:03Z",
-      "bounds": [
-        30.8002567,
-        46.6820971,
-        38.0855922,
-        49.4347328
-      ],
-      "schema": 1,
-      "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/dnipropetrovsk-2026-11-11-d069535af2b2-2-sat-d3ac4b2349.zip",
-      "bytes": 590818341,
-      "sha256": "2cce0be5086d82a1b92e365a5c9031a47e2052a0d5af08cffd8a91fb18bbd586",
-      "satellite": [
-        32.95,
-        47.45,
-        36.94,
-        49.2
-      ],
-      "standard": {
-        "id": "dnipropetrovsk",
-        "name": "Дніпропетровська область",
-        "version": "2026-11-11-d069535af2b2-2",
-        "date": "2026-11-11T01:06:03Z",
-        "bounds": [
-          30.8002567,
-          46.6820971,
-          38.0855922,
-          49.4347328
-        ],
-        "schema": 1,
-        "graph": "valhalla-3.6.3-e2f017b",
-        "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/dnipropetrovsk-2026-11-11-d069535af2b2-2.zip",
-        "bytes": 71832149,
-        "sha256": "3f84d26c64abef02e2d1bd9639f3d7f7c79a443902ddeeeef3cfec5f19e38436"
-      }
-    },
-    {
       "id": "donetsk",
       "name": "Донецька область",
       "version": "2026-11-11-9027fe6661ab-2",
@@ -142,46 +102,6 @@
       "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zakarpattia-2026-11-11-49844f32e02f-2.zip",
       "bytes": 51190904,
       "sha256": "470cadacd7775137d3ab92e81770966f93baed0e24bc7e1244c1914a3551e666"
-    },
-    {
-      "id": "zaporizhzhia",
-      "name": "Запорізька область",
-      "version": "2026-11-11-8d040b181b4e-2-sat-7d3b24b4e9",
-      "date": "2026-11-11T01:06:03Z",
-      "bounds": [
-        33.1862369,
-        45.6418509,
-        38.0856997,
-        48.5584091
-      ],
-      "schema": 1,
-      "graph": "valhalla-3.6.3-e2f017b",
-      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zaporizhzhia-2026-11-11-8d040b181b4e-2-sat-7d3b24b4e9.zip",
-      "bytes": 420382024,
-      "sha256": "0f788176f504f87a1d17c77cb7773ed7fd1aa365f9d9fb85e153e52e71d5bfe5",
-      "satellite": [
-        34.13,
-        46.14,
-        37.25,
-        48.15
-      ],
-      "standard": {
-        "id": "zaporizhzhia",
-        "name": "Запорізька область",
-        "version": "2026-11-11-8d040b181b4e-2",
-        "date": "2026-11-11T01:06:03Z",
-        "bounds": [
-          33.1862369,
-          45.6418509,
-          38.0856997,
-          48.5584091
-        ],
-        "schema": 1,
-        "graph": "valhalla-3.6.3-e2f017b",
-        "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/zaporizhzhia-2026-11-11-8d040b181b4e-2.zip",
-        "bytes": 35464198,
-        "sha256": "d4c07e885eb4076a4c7cade4c99c9efb346f7731f757ddffcf726d49b4af33c3"
-      }
     },
     {
       "id": "ivano-frankivsk",
@@ -522,6 +442,86 @@
       "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-11/sevastopol-2026-11-11-250d83c76fd1-2.zip",
       "bytes": 8589734,
       "sha256": "0a3938c7ee24eaeb2424173cbbc0ab4f40ff6903a8ca94fad50c8962a2f93e19"
+    },
+    {
+      "id": "dnipropetrovsk",
+      "name": "Дніпропетровська область",
+      "version": "2026-11-11-d069535af2b2-3",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        30.8002567,
+        46.6820971,
+        38.0855922,
+        49.4347328
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-16/dnipropetrovsk-2026-11-11-d069535af2b2-3.zip",
+      "bytes": 83315006,
+      "sha256": "62d618d72e6c9a5657d34fa2c477504706cdc936ed7806391b8108623117c28a"
+    },
+    {
+      "id": "zaporizhzhia",
+      "name": "Запорізька область",
+      "version": "2026-11-11-8d040b181b4e-3",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        33.1862369,
+        45.6418509,
+        38.0856997,
+        48.5584091
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-16/zaporizhzhia-2026-11-11-8d040b181b4e-3.zip",
+      "bytes": 37060689,
+      "sha256": "5a145f61dffaca6ac48ea32bad23e7fa7702b3036c2e0fb7bf72477c6a59af63"
+    },
+    {
+      "id": "dnipropetrovsk-satellite",
+      "name": "Дніпропетровська область",
+      "version": "2026-11-11-d069535af2b2-3-sat-d3ac4b2349",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        30.8002567,
+        46.6820971,
+        38.0855922,
+        49.4347328
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-16/dnipropetrovsk-satellite-2026-11-11-d069535af2b2-3-sat-d3ac4b2349.zip",
+      "bytes": 598483308,
+      "sha256": "c999cc16ce1a78fcc6a44b9f56cb913fd00bf0fc25b02bc231896afc924dc0a2",
+      "satellite": [
+        32.95,
+        47.45,
+        36.94,
+        49.2
+      ]
+    },
+    {
+      "id": "zaporizhzhia-satellite",
+      "name": "Запорізька область",
+      "version": "2026-11-11-8d040b181b4e-3-sat-7d3b24b4e9",
+      "date": "2026-11-11T01:06:03Z",
+      "bounds": [
+        33.1862369,
+        45.6418509,
+        38.0856997,
+        48.5584091
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-2026-11-16/zaporizhzhia-satellite-2026-11-11-8d040b181b4e-3-sat-7d3b24b4e9.zip",
+      "bytes": 418469772,
+      "sha256": "f36152b773abdd5f72008ba53fdcaf14355f55f8e63dd8265153ee1f3a74e7c2",
+      "satellite": [
+        34.13,
+        46.14,
+        37.25,
+        48.15
+      ]
     }
   ]
 }
