@@ -1,110 +1,173 @@
 <!doctype html>
-<html lang="uk">
+<html lang="uk" data-type="software">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AntiNav — український офлайн-навігатор для Android та iPhone. Завантажте тестову версію або долучіться до TestFlight.">
-  <meta name="theme-color" content="#171b18">
-  <title>AntiNav — офлайн-навігація</title>
-  <link rel="stylesheet" href="site.css?v=viewer">
-  <script src="site.js?v=viewer" defer></script>
-  <script src="guide.js" defer></script>
+  <meta name="page-type" content="software">
+  <meta name="site-kind" content="software">
+  <meta name="description" content="AntiNav — український офлайн-навігатор для Android та iPhone. Дізнайтеся, як завантажити карту, побудувати маршрут і вибрати режим, коли зникає GPS.">
+  <meta name="theme-color" content="#111819">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:title" content="AntiNav — офлайн-навігатор для України">
+  <meta property="og:description" content="Готуйте карту й маршрут заздалегідь. Спробуйте три режими навігації в короткій інтерактивній інструкції.">
+  <meta property="og:url" content="https://prosto-dev.github.io/anti-nav/">
+  <meta property="og:image" content="https://prosto-dev.github.io/anti-nav/preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AntiNav і екран офлайн-навігації на телефоні">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>AntiNav — офлайн-навігатор для України</title>
+  <link rel="canonical" href="https://prosto-dev.github.io/anti-nav/">
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="site.css?v=3">
+  <script src="site.js?v=3" defer></script>
 </head>
 <body>
-  <header class="shell top">
-    <a class="brand" href="./"><span class="marker" aria-hidden="true"></span> AntiNav</a>
-    <nav aria-label="Навігація сторінкою">
-      <a href="#about">Можливості</a>
-      <a href="#download">Завантажити</a>
-    </nav>
+  <a class="skip" href="#main">До основного вмісту</a>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="./"><img src="icon.png" width="36" height="36" alt="">AntiNav</a>
+      <nav aria-label="Основне меню"><a href="#modes">Режими</a><a href="#guide">Інструкція</a><a href="#faq">Запитання</a></nav>
+      <a class="button top-action" href="#download">Завантажити</a>
+    </div>
   </header>
 
-  <main class="shell">
+  <main id="main">
     <section class="hero" aria-labelledby="title">
-      <div class="intro">
-        <p class="eyebrow"><span></span> Android та iPhone</p>
-        <h1 id="title">Навігація<br>без мережі<span>.</span></h1>
-        <p class="lead">Завантажте карту області через інтернет. Далі AntiNav показує карту й будує автомобільні та пішохідні маршрути без мережі.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#android">Версія для Android <span aria-hidden="true">↓</span></a>
-          <a class="button outline" href="#iphone">Заявка на iPhone <span aria-hidden="true">↓</span></a>
+      <div class="wrap hero-inner">
+        <div class="hero-copy" data-enter>
+          <h1 id="title">Офлайн-навігатор для доріг України</h1>
+          <p class="hero-lead">Завантажте карту до поїздки. AntiNav побудує маршрут без інтернету, а коли GPS зникне, допоможе оцінювати рух за обраною швидкістю або даними авто.</p>
+          <div class="actions">
+            <a class="button primary" href="#download">Завантажити AntiNav</a>
+            <a class="text-action" href="#guide">Як почати <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero-note">Android та iPhone · автомобільні й пішохідні маршрути</p>
+        </div>
+        <div class="hero-art" data-enter>
+          <div class="hero-map" aria-hidden="true"></div>
+          <a class="phone main-phone" href="screens/road.png" data-screenshot="Режим «У дорозі»">
+            <img src="screens/road.png" width="1080" height="2400" fetchpriority="high" alt="AntiNav у повноекранному режимі «У дорозі»: офлайн-карта, лінія маршруту й індикатори сигналу">
+          </a>
         </div>
       </div>
-      <figure class="preview">
-        <a class="phone screenshot-link" href="map-preview.png" data-screenshot>
-          <img src="map-preview.png" width="1080" height="2400" alt="Екран AntiNav з офлайн-картою, лінією маршруту та кнопкою «Я тут»">
-        </a>
-        <figcaption>Екран навігації AntiNav</figcaption>
-      </figure>
     </section>
 
-    <section class="section" id="about" aria-labelledby="features-title">
-      <h2 id="features-title">Можливості</h2>
-      <div class="features">
-        <article><h3>Карти областей</h3><p>Завантажуйте потрібні регіони України. Для Дніпропетровської та Запорізької областей доступні оглядові супутникові знімки.</p></article>
-        <article><h3>Ведення маршрутом</h3><p>Використовуйте GPS телефона. Якщо сигнал зникне, AntiNav може оцінювати рух за швидкістю з OBDLink CX або заданою швидкістю. Позицію можна уточнити кнопкою «Я тут».</p></article>
-        <article><h3>Мої маршрути</h3><p>Додавайте проміжні зупинки, записуйте поїздки й відкривайте збережені маршрути.</p></article>
-      </div>
-    </section>
-
-    <section class="section" id="screenshots" aria-labelledby="screenshots-title">
-      <h2 id="screenshots-title">AntiNav на екрані</h2>
-      <p class="gallery-hint">Натисніть на скріншот, щоб збільшити.</p>
-      <div class="screenshots">
-        <figure>
-          <a class="screenshot-link" href="screens/maps.png" data-screenshot><img src="screens/maps.png" width="1080" height="2400" loading="lazy" alt="Каталог офлайн-карт із розмірами пакетів та кнопками завантаження"></a>
-          <figcaption>Офлайн-карти</figcaption>
-        </figure>
-        <figure>
-          <a class="screenshot-link" href="screens/route.png" data-screenshot><img src="screens/route.png" width="1080" height="2400" loading="lazy" alt="Три пронумеровані точки на карті й кнопка «Побудувати маршрут»"></a>
-          <figcaption>Планування маршруту</figcaption>
-        </figure>
-        <figure>
-          <a class="screenshot-link" href="screens/guidance.png" data-screenshot><img src="screens/guidance.png" width="1080" height="2400" loading="lazy" alt="Карта з поточною позицією, відстанню до фінішу та підказкою про поворот"></a>
-          <figcaption>Ведення маршрутом</figcaption>
-        </figure>
-        <figure>
-          <a class="screenshot-link" href="screens/trips.png" data-screenshot><img src="screens/trips.png" width="1080" height="2400" loading="lazy" alt="Список записаних поїздок і побудованих маршрутів"></a>
-          <figcaption>Мої маршрути</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="section" id="guide" aria-labelledby="guide-title">
-      <h2 id="guide-title">Перші кроки</h2>
-      <div class="guide">
-        <div class="guide-steps" aria-label="Кроки інструкції">
-          <button type="button" aria-pressed="true" data-step="0">Завантажте карту</button>
-          <button type="button" aria-pressed="false" data-step="1">Побудуйте маршрут</button>
-          <button type="button" aria-pressed="false" data-step="2">Почніть рух</button>
-          <button type="button" aria-pressed="false" data-step="3">Збережіть поїздку</button>
+    <section class="modes section" id="modes" aria-labelledby="modes-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="modes-title">Три способи вести маршрутом</h2>
+          <p>Оберіть режим за тим, які дані доступні в дорозі. Усі три працюють із завантаженою картою.</p>
         </div>
-        <div class="guide-scene">
-          <canvas width="680" height="470" aria-hidden="true"></canvas>
-          <div class="guide-caption">
-            <p id="guide-description" aria-live="polite">Відкрийте «Офлайн-карти», виберіть область і дочекайтеся статусу «Завантажено».</p>
-            <button class="replay" type="button">Повторити анімацію <span aria-hidden="true">↻</span></button>
+        <div class="mode-layout" data-switcher>
+          <div class="switch-list" aria-label="Режими навігації">
+            <button type="button" id="mode-gps-tab" aria-controls="mode-gps"><span class="mode-index" aria-hidden="true">01</span><span>Геолокація<small>Стабільний GPS</small></span></button>
+            <button type="button" id="mode-manual-tab" aria-controls="mode-manual"><span class="mode-index" aria-hidden="true">02</span><span>Задана швидкість<small>Рух без GPS і адаптера</small></span></button>
+            <button type="button" id="mode-obd-tab" aria-controls="mode-obd"><span class="mode-index" aria-hidden="true">03</span><span>Адаптер OBD<small>Швидкість із автомобіля</small></span></button>
+          </div>
+          <div class="mode-panels">
+            <article class="mode-panel" id="mode-gps" aria-labelledby="mode-gps-tab">
+              <h3>Телефон визначає вашу позицію</h3>
+              <ol><li>Оберіть «Геолокація» у верхній панелі карти.</li><li>Дозвольте точну геопозицію. Натисніть приціл, щоб знайти себе й побачити похибку.</li><li>Натисніть «Рушив». Якщо надійні координати зникнуть, застосунок запропонує інший доступний режим.</li></ol>
+              <p class="mode-note">Для офлайн-карти інтернет не потрібен. Точність залежить від координат, які отримує телефон.</p>
+            </article>
+            <article class="mode-panel" id="mode-manual" aria-labelledby="mode-manual-tab">
+              <h3>Ви задаєте швидкість руху</h3>
+              <ol><li>Зупиніться в безпечному місці. Натисніть «Я тут» і позначте відому точку на карті.</li><li>Оберіть «Задана швидкість», налаштуйте її кнопками «−» і «+» та натисніть «Рушив».</li><li>Підтверджуйте фактичний напрямок, коли застосунок запитає про поворот. На зупинці натисніть «Стоп».</li></ol>
+              <p class="mode-note">Позиція розрахункова. Уточнюйте її біля відомих місць, якщо оцінка розходиться з вашим шляхом.</p>
+            </article>
+            <article class="mode-panel" id="mode-obd" aria-labelledby="mode-obd-tab">
+              <h3>Автомобіль передає швидкість</h3>
+              <ol><li>Підключіть сумісний OBD-II адаптер і ввімкніть запалювання.</li><li>У «Налаштуваннях» виберіть тип з’єднання. Перевірте, що AntiNav отримує актуальну швидкість. Значення 0 км/год на стоянці підходить.</li><li>Запустіть ведення і підтверджуйте повороти. Якщо швидкість перестане надходити, просування зупиниться.</li></ol>
+              <p class="mode-note">Підтримуються сумісні BLE та Wi-Fi адаптери. Bluetooth Classic доступний на Android. <a href="#faq-obd">Як підключитися</a></p>
+            </article>
+          </div>
+        </div>
+        <div class="practice">
+          <div>
+            <h3>Що робити, коли GPS зник?</h3>
+            <p>Спробуйте без телефона й адаптера. Це навчальний приклад.</p>
+          </div>
+          <div class="exercise" data-exercise>
+            <p class="exercise-status" aria-live="polite">GPS недоступний. Ви зупинилися біля знайомого перехрестя.</p>
+            <div class="exercise-track" aria-hidden="true"><span></span><i></i><i></i><i></i><i></i></div>
+            <button class="button light-button" type="button" hidden>Позначити «Я тут»</button>
+            <noscript><p>Позначте «Я тут», виберіть задану швидкість і натисніть «Рушив».</p></noscript>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="guide section" id="guide" aria-labelledby="guide-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="guide-title">Від карти до першої поїздки</h2>
+          <p>Підготуйте карту, поки є інтернет. Далі можете перевірити весь маршрут у режимі польоту.</p>
+        </div>
+        <div class="guide-layout" data-switcher>
+          <div class="switch-list guide-list" aria-label="Кроки інструкції">
+            <button type="button" id="guide-map-tab" aria-controls="guide-map"><span class="mode-index">01</span><span>Завантажте карту</span></button>
+            <button type="button" id="guide-route-tab" aria-controls="guide-route"><span class="mode-index">02</span><span>Побудуйте маршрут</span></button>
+            <button type="button" id="guide-run-tab" aria-controls="guide-run"><span class="mode-index">03</span><span>Почніть ведення</span></button>
+            <button type="button" id="guide-save-tab" aria-controls="guide-save"><span class="mode-index">04</span><span>Збережіть маршрут</span></button>
+          </div>
+          <div class="guide-panels">
+            <article class="guide-panel" id="guide-map" aria-labelledby="guide-map-tab">
+              <div><h3>Завантажте потрібну область</h3><p>Відкрийте «Офлайн-карти», знайдіть область і дочекайтеся статусу «Завантажено». Для супутникового вигляду перегляньте окремий фільтр «Супутник».</p><p>Після встановлення карта й дорожній граф відкриваються без мережі.</p></div>
+              <a class="phone guide-phone" href="screens/catalog-103.png" data-screenshot="Офлайн-карти"><img src="screens/catalog-103.png" width="1080" height="2400" loading="lazy" alt="Каталог AntiNav із фільтрами «Звичайна карта» і «Супутник»"></a>
+            </article>
+            <article class="guide-panel" id="guide-route" aria-labelledby="guide-route-tab">
+              <div><h3>Позначте старт і фініш</h3><p>Натисніть «Маршрут». Виберіть авто або пішки, а тоді вкажіть точки на карті чи введіть адресу або координати.</p><p>Якщо потрібна зупинка дорогою, додайте проміжну точку. Порядок можна змінити до виїзду.</p></div>
+              <a class="phone guide-phone" href="screens/route-103.png" data-screenshot="Прокладений офлайн-маршрут"><img src="screens/route-103.png" width="1080" height="2400" loading="lazy" alt="Побудований автомобільний маршрут з відстанню до фінішу в AntiNav"></a>
+            </article>
+            <article class="guide-panel" id="guide-run" aria-labelledby="guide-run-tab">
+              <div><h3>Перевірте режим перед стартом</h3><p>Оберіть спосіб ведення й натисніть «Рушив». Перевірте початкове місце, карту та доступність GPS або швидкості.</p><p>Режим «У дорозі» ставить карту на весь екран. Кнопка «Я тут» дозволяє вручну уточнити місце й оновити маршрут до того самого фінішу.</p></div>
+              <a class="phone guide-phone" href="screens/modes-103.png" data-screenshot="Налаштування способу ведення"><img src="screens/modes-103.png" width="1080" height="2400" loading="lazy" alt="Три способи ведення у налаштуваннях AntiNav"></a>
+            </article>
+            <article class="guide-panel" id="guide-save" aria-labelledby="guide-save-tab">
+              <div><h3>Поверніться до маршруту пізніше</h3><p>Збережіть план або запишіть поїздку. Обидва варіанти відкриваються в розділі «Мої маршрути».</p><p>Після перезапуску активний маршрут відновлюється на паузі. Перевірте своє місце, перш ніж продовжити.</p></div>
+              <a class="phone guide-phone" href="screens/trips-103.png" data-screenshot="Мої маршрути"><img src="screens/trips-103.png" width="1080" height="2400" loading="lazy" alt="Список збережених маршрутів і кнопки додавання та запису в AntiNav"></a>
+            </article>
+          </div>
+        </div>
+        <p class="gallery-help">Скріншоти з Android. Натисніть на знімок, щоб збільшити.</p>
+      </div>
+    </section>
+
     <section class="section download" id="download" aria-labelledby="download-title">
-      <h2 id="download-title">Спробуйте AntiNav</h2>
-      <div class="cards">
-        <article class="card" id="android">
-          <h3>Android</h3>
-          <p class="version" id="android-version" aria-live="polite">Перевіряємо номер версії…</p>
-          <p>Встановіть тестову збірку APK, відкрийте «Офлайн-карти» в застосунку й завантажте потрібну область.</p>
-          <a class="button primary" href="https://github.com/prosto-dev/anti-nav/releases/latest/download/AntiNav.apk">Завантажити APK <span aria-hidden="true">↓</span></a>
-          <a class="small-link" href="https://github.com/prosto-dev/anti-nav/releases/latest">Деталі випуску</a>
-        </article>
-        <article class="card" id="iphone">
-          <h3>iPhone</h3>
-          <p class="version">Тестування через TestFlight</p>
-          <p>Надішліть свою адресу iCloud у WhatsApp. Після отримання запрошення встановіть AntiNav через TestFlight.</p>
-          <a class="button outline" href="https://wa.me/380972323660?text=%D0%92%D1%96%D1%82%D0%B0%D1%8E%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%82%D0%B5%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8%20AntiNav%20%D0%BD%D0%B0%20iPhone.%20%D0%9C%D0%BE%D1%8F%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%20iCloud%3A%20">Написати в WhatsApp <span aria-hidden="true">↗</span></a>
-        </article>
+      <div class="wrap">
+        <div class="section-head"><h2 id="download-title">Завантажте AntiNav</h2><p>Встановіть застосунок і збережіть першу карту перед поїздкою.</p></div>
+        <div class="download-rows">
+          <article id="android">
+            <div class="platform"><span class="platform-index" aria-hidden="true">01</span><h3>Android</h3></div>
+            <div class="download-copy"><p id="android-version">Актуальна версія APK</p><p>Відкрийте завантажений файл і підтвердьте встановлення в Android.</p></div>
+            <a class="button primary" href="https://github.com/prosto-dev/anti-nav/releases/latest/download/AntiNav.apk">Завантажити APK</a>
+          </article>
+          <article id="iphone">
+            <div class="platform"><span class="platform-index" aria-hidden="true">02</span><h3>iPhone</h3></div>
+            <div class="download-copy"><p>Встановіть AntiNav на iPhone через App Store.</p></div>
+            <a class="button outline" href="https://apps.apple.com/ua/app/id6833674862">Відкрити App Store</a>
+          </article>
+          <article id="team">
+            <div class="platform"><span class="platform-index" aria-hidden="true">03</span><h3>Команда</h3></div>
+            <div class="download-copy"><p>Хочете допомогти з розробкою, дизайном, картами чи тестуванням? Напишіть, чим хотіли б займатися.</p></div>
+            <a class="button outline" href="https://wa.me/380972323660?text=%D0%92%D1%96%D1%82%D0%B0%D1%8E%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B4%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D0%B8%D1%81%D1%8F%20%D0%B4%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%20AntiNav.">Долучитися до команди</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-layout">
+        <div><h2 id="faq-title">Поширені запитання</h2><p>Залишилися питання про AntiNav або маєте пропозицію?</p><a class="text-action" href="https://wa.me/380972323660">Написати в WhatsApp</a></div>
+        <div class="faq-list">
+          <details><summary>Коли AntiNav потрібен інтернет?</summary><p>Інтернет потрібен, щоб завантажити застосунок, карти й оновлення. Після встановлення потрібної області карта, побудова маршруту й збережені плани працюють офлайн.</p></details>
+          <details><summary>Які карти та адреси доступні?</summary><p>Звичайні карти областей України шукайте в каталозі. Для Дніпропетровської та Запорізької областей є окремі супутникові пакети й офлайн-адреси OSM. Щоб шукати вулиці й будинки, потрібна версія з підтримкою адресного індексу. Якщо підказки немає, позначте точку на карті або введіть координати.</p></details>
+          <details id="faq-obd"><summary>Як підключити адаптер OBD?</summary><p>Для BLE виберіть «Bluetooth LE» та знайдіть адаптер. Для Wi-Fi підключіться до мережі адаптера в налаштуваннях телефона й укажіть IP та порт з його інструкції. Для Bluetooth Classic на Android спочатку спаруйте пристрій у системі. У кожному випадку перевірте, чи застосунок зчитує актуальну швидкість.</p></details>
+          <details><summary>Чим «Моє місце» відрізняється від «Я тут»?</summary><p>Кнопка з прицілом запитує координати телефона і показує оцінку їхньої точності. «Я тут» дає змогу вручну позначити відоме місце, якщо координати недоступні або ненадійні.</p></details>
+        </div>
       </div>
     </section>
   </main>
@@ -112,12 +175,10 @@
   <dialog class="screenshot-viewer" aria-labelledby="screenshot-title">
     <div class="viewer-content">
       <header class="viewer-header">
-        <h2 id="screenshot-title">Скріншоти AntiNav</h2>
-        <form method="dialog">
-          <button type="submit" aria-label="Закрити скріншот" autofocus>×</button>
-        </form>
+        <h2 id="screenshot-title">Скріншот AntiNav</h2>
+        <form method="dialog"><button type="submit" aria-label="Закрити скріншот" autofocus>×</button></form>
       </header>
-      <div class="viewer-image"><img src="map-preview.png" alt=""></div>
+      <div class="viewer-image"><img src="screens/road.png" alt=""></div>
       <div class="viewer-controls">
         <button type="button" data-direction="-1" aria-label="Попередній скріншот">←</button>
         <span class="viewer-count" aria-live="polite"></span>
@@ -126,9 +187,13 @@
     </div>
   </dialog>
 
-  <footer class="shell foot">
-    <span class="brand"><span class="marker" aria-hidden="true"></span> AntiNav</span>
-    <a href="https://wa.me/380972323660">WhatsApp · +380 97 232 36 60</a>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="./"><img src="icon.png" width="32" height="32" alt="">AntiNav</a>
+      <a href="privacy.html">Конфіденційність</a>
+      <a href="https://wa.me/380972323660">WhatsApp · +380 97 232 36 60</a>
+      <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>
+    </div>
   </footer>
 </body>
 </html>
