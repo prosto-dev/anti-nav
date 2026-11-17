@@ -2,6 +2,23 @@
   "schema": 1,
   "regions": [
     {
+      "id": "ukraine",
+      "name": "Україна · міжобласні маршрути",
+      "version": "2026-11-17-6bdd40c2419d-3",
+      "date": "2026-11-17T01:20:04Z",
+      "bounds": [
+        19.6899,
+        40.97341,
+        44.64846,
+        54.97614
+      ],
+      "schema": 1,
+      "graph": "valhalla-3.6.3-e2f017b",
+      "url": "https://github.com/prosto-dev/anti-nav/releases/download/maps-ukraine-2026-11-17/ukraine-2026-11-17-6bdd40c2419d-3.zip",
+      "bytes": 1398256292,
+      "sha256": "3ec16c85a8fcdd58d567580da2a8b1542819935f5a35d57e078deb29a0a48c6c"
+    },
+    {
       "id": "dnipro-zaporizhzhia",
       "name": "Дніпропетровська і Запорізька області",
       "version": "2026-11-11-3cb0318b2868-2",
